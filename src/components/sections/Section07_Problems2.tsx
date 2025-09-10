@@ -105,7 +105,7 @@ export const Section07_Problems2: React.FC = () => {
             <div className="text-center">
               <div className="inline-block bg-gradient-to-r from-red-500 to-orange-500 rounded-full px-12 py-6 shadow-2xl">
                 <p className="text-white text-lg sm:text-xl md:text-2xl font-bold">
-                  知識止まりで実務に直結しないのが現実...！
+                  知識止まりで<br />実務に直結しないのが現実...！
                 </p>
               </div>
             </div>
