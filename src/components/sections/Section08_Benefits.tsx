@@ -23,7 +23,7 @@ export const Section08_Benefits: React.FC = () => {
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black text-white mb-8 relative">
                 <span className="bg-gradient-to-r from-yellow-300 via-white to-cyan-300 bg-clip-text text-transparent animate-pulse">
-                  本講座なら...すべて解決できます！
+                  本講座なら...<br />すべて解決できます！
                 </span>
                 <div className="absolute inset-0 bg-gradient-to-r from-yellow-400/20 via-white/30 to-cyan-400/20 blur-md -z-10" />
               </h2>
@@ -34,7 +34,7 @@ export const Section08_Benefits: React.FC = () => {
           <FadeIn delay={0.4} disabled={true}>
             <div className="text-center mb-16 max-w-5xl mx-auto">
               <p className="text-white text-lg sm:text-xl md:text-2xl leading-relaxed font-medium">
-                多くのスクールが<span className="font-black text-2xl sm:text-3xl text-yellow-300">"知識止まり"</span>で終わる中、本講座は<span className="font-black text-xl sm:text-2xl text-cyan-300">実務に直結するスキル習得</span>にこだわっています。
+                多くのスクールが<span className="font-black text-2xl sm:text-3xl text-yellow-300">&quot;知識止まり&quot;</span>で終わる中、<br />本講座は<span className="font-black text-xl sm:text-2xl text-cyan-300">実務に直結するスキル習得</span>にこだわっています。
               </p>
               
               <div className="mt-12 p-8 bg-white/10 backdrop-blur-sm rounded-2xl border border-yellow-400/30">

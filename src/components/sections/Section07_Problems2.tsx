@@ -20,13 +20,13 @@ export const Section07_Problems2: React.FC = () => {
             <div className="text-center mb-16">
               <div className="inline-block bg-gradient-to-r from-red-500 to-orange-600 rounded-2xl px-8 py-4 mb-8">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white">
-                  他のスクールでよくある落とし穴が...
+                  他のスクールでよくある<br />落とし穴が...
                 </h2>
               </div>
               
               <FadeIn delay={0.4} disabled={true}>
                 <p className="text-slate-700 text-lg sm:text-xl md:text-2xl font-medium">
-                  知識止まりで実務に直結しないのが現実...！
+                  知識止まりで実務に直結しないのが<br />現実...！
                 </p>
               </FadeIn>
             </div>
