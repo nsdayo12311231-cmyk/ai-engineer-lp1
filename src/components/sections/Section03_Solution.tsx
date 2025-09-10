@@ -74,8 +74,8 @@ export const Section03_Solution: React.FC = () => {
             
             <FadeIn delay={0.6} disabled={true}>
               <p className="font-medium bg-gradient-to-r from-white via-cyan-100 to-white bg-clip-text text-transparent">
-                これからの時代は<span className="font-bold text-yellow-300">"AIを使う人"</span>ではなく<br />
-                <span className="font-bold text-yellow-300">"AIを作れる人"</span>が必要とされます。
+                これからの時代は<span className="font-bold text-yellow-300">&quot;AIを使う人&quot;</span>ではなく<br />
+                <span className="font-bold text-yellow-300">&quot;AIを作れる人&quot;</span>が必要とされます。
               </p>
             </FadeIn>
 
@@ -89,7 +89,7 @@ export const Section03_Solution: React.FC = () => {
             <FadeIn delay={1.0} disabled={true}>
               <div className="relative">
                 <p className="font-bold text-lg sm:text-xl md:text-2xl bg-gradient-to-r from-yellow-300 via-white to-cyan-300 bg-clip-text text-transparent">
-                  本講座は実践特化。<span className="font-black">"あなたの業務に直結するツール"</span>を作りながら学び、社内や社会で価値提供できるAI人材を育てます。
+                  本講座は実践特化。<span className="font-black">&quot;あなたの業務に直結するツール&quot;</span>を作りながら学び、社内や社会で価値提供できるAI人材を育てます。
                 </p>
                 {/* 強調ライン */}
                 <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-3/4 h-1 bg-gradient-to-r from-yellow-400 via-white to-cyan-400 opacity-80 animate-pulse" />

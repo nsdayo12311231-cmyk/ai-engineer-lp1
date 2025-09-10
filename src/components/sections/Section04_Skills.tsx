@@ -28,7 +28,7 @@ export const Section04_Skills: React.FC = () => {
               {/* サブタイトル */}
               <FadeIn delay={0.4} disabled={true}>
                 <div className="text-slate-700 text-xl sm:text-2xl md:text-3xl font-medium mb-4">
-                  ——AIを<span className="font-bold text-blue-600">"使う側"</span>から<span className="font-bold text-purple-600">"作れる側"</span>へ——
+                  ——AIを<span className="font-bold text-blue-600">&quot;使う側&quot;</span>から<span className="font-bold text-purple-600">&quot;作れる側&quot;</span>へ——
                 </div>
                 <div className="text-slate-600 text-lg sm:text-xl md:text-2xl font-medium">
                   業務を効率化し、新しい価値を生み出す
