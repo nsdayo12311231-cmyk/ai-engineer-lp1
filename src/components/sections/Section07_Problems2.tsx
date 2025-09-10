@@ -26,7 +26,7 @@ export const Section07_Problems2: React.FC = () => {
               
               <FadeIn delay={0.4} disabled={true}>
                 <p className="text-slate-700 text-lg sm:text-xl md:text-2xl font-medium max-w-full break-words">
-                  知識止まりで実務に直結しないのが<br />現実...！
+                  知識止まりで<br />実務に直結しないのが現実...！
                 </p>
               </FadeIn>
             </div>
