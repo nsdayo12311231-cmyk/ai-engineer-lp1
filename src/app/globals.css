@@ -37,6 +37,14 @@ html {
   box-sizing: border-box;
 }
 
+/* テキストオーバーフロー対策 */
+h1, h2, h3, h4, h5, h6, p, span {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
+}
+
 /* レスポンシブ対応の最適化 */
 /* モバイル最適化 */
 @media (max-width: 640px) {
