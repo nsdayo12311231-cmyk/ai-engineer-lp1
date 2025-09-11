@@ -13,27 +13,27 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "実践型AIエンジニア講座 | 社内で唯一のAI人材になる",
-  description: "実務に直結するAIスキルを身につける実践型講座。AIツールを作りながら学び、社内で頼られるAI人材を目指せます。LINE登録で詳細資料配布中！",
-  keywords: "AI,人工知能,エンジニア,講座,プログラミング,スキルアップ,転職,副業,実践型",
-  authors: [{ name: "株式会社SKH" }],
-  creator: "株式会社SKH",
-  publisher: "株式会社SKH",
+  title: "AI時代に求められるAIエンジニア講座 | CodeBoost",
+  description: "完全未経験OK！プログラミングと生成AIスキルを習得し、AI時代に活躍する生成AIエンジニアへ。無料相談受付中！",
+  keywords: "AI,生成AI,エンジニア,プログラミング,スクール,講座,未経験OK,CodeBoost",
+  authors: [{ name: "CodeBoost" }],
+  creator: "CodeBoost",
+  publisher: "CodeBoost",
   robots: "index, follow",
   openGraph: {
-    title: "実践型AIエンジニア講座 | 社内で唯一のAI人材になる",
-    description: "実務に直結するAIスキルを身につける実践型講座。AIツールを作りながら学び、社内で頼られるAI人材を目指せます。",
+    title: "AI時代に求められるAIエンジニア講座 | CodeBoost",
+    description: "完全未経験OK！プログラミングと生成AIスキルを習得し、AI時代に活躍する生成AIエンジニアへ",
     type: "website",
     locale: "ja_JP",
-    siteName: "実践型AIエンジニア講座",
+    siteName: "CodeBoost",
   },
   twitter: {
     card: "summary_large_image",
-    title: "実践型AIエンジニア講座 | 社内で唯一のAI人材になる",
-    description: "実務に直結するAIスキルを身につける実践型講座。AIツールを作りながら学び、社内で頼られるAI人材を目指せます。",
+    title: "AI時代に求められるAIエンジニア講座 | CodeBoost",
+    description: "完全未経験OK！プログラミングと生成AIスキルを習得し、AI時代に活躍する生成AIエンジニアへ",
   },
   alternates: {
-    canonical: "https://ai-engineer-course.com",
+    canonical: "https://code-boost.jp",
   },
   other: {
     "format-detection": "telephone=no",
@@ -56,18 +56,11 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Course",
-              "name": "実践型AIエンジニア講座",
-              "description": "実務に直結するAIスキルを身につける実践型講座。AIツールを作りながら学び、社内で頼られるAI人材を目指せます。",
+              "name": "AI時代に求められるAIエンジニア講座",
+              "description": "完全未経験OK！プログラミングと生成AIスキルを習得し、AI時代に活躍する生成AIエンジニアへ",
               "provider": {
                 "@type": "Organization",
-                "name": "株式会社SKH",
-                "address": {
-                  "@type": "PostalAddress",
-                  "addressLocality": "大阪府吹田市千里山東",
-                  "addressRegion": "大阪府",
-                  "postalCode": "2-4-3",
-                  "addressCountry": "JP"
-                }
+                "name": "CodeBoost"
               },
               "courseMode": "online",
               "educationalLevel": "beginner",

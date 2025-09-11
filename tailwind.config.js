@@ -20,6 +20,18 @@ module.exports = {
           800: '#1e40af',
           900: '#1e3a8a',
         },
+        accent: {
+          50: '#fff7ed',
+          100: '#ffedd5',
+          200: '#fed7aa',
+          300: '#fdba74',
+          400: '#fb923c',
+          500: '#f97316',
+          600: '#ea580c',
+          700: '#c2410c',
+          800: '#9a3412',
+          900: '#7c2d12',
+        },
         secondary: {
           50: '#f0f9ff',
           100: '#e0f2fe',
@@ -33,10 +45,20 @@ module.exports = {
           900: '#0c4a6e',
         }
       },
+      screens: {
+        'xs': '475px',
+        '3xl': '1600px'
+      },
+      backdropBlur: {
+        xs: '2px',
+        '4xl': '72px'
+      },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out',
         'slide-up': 'slideUp 0.4s ease-out',
         'fade-in-delay': 'fadeIn 0.6s ease-out 0.2s both',
+        'fade-in-up': 'fadeInUp 0.6s ease-out',
+        'slide-in-right': 'slideInRight 0.8s ease-out'
       },
       keyframes: {
         fadeIn: {
@@ -57,6 +79,26 @@ module.exports = {
           to: {
             opacity: '1',
             transform: 'translateY(0)',
+          },
+        },
+        fadeInUp: {
+          from: {
+            opacity: '0',
+            transform: 'translateY(40px)',
+          },
+          to: {
+            opacity: '1',
+            transform: 'translateY(0)',
+          },
+        },
+        slideInRight: {
+          from: {
+            opacity: '0',
+            transform: 'translateX(30px)',
+          },
+          to: {
+            opacity: '1',
+            transform: 'translateX(0)',
           },
         }
       },
